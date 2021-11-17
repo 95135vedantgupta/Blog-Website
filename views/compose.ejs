@@ -1,0 +1,19 @@
+<%- include("partials/header"); -%>
+
+<h1 class="marginFromTop">Compose</h1>
+
+<form action="/compose" method="post">
+  <div class="form-group">
+    <label for="postTitle" style="color:#6D8299">Title</label>
+    <input class="form-control" type="text" name="postTitle"  maxlength="90" autocomplete="off" style="width:100%; background-color:#393E46; border-color:#393E46; color:#FFD369" placeholder="Enter Title" required>
+  </div>
+  <div class="form-group">
+    <label style="color:#6D8299" for="postPost">Post</label>
+    <textarea placeholder="Enter Blog" class="form-control" name="postPost" style="background-color:#393E46; border-color:#393E46; color:#FFD369" rows="10" required></textarea>
+  </div>
+  <br />
+  <button type="submit" class="btn btn-primary" name="button" style="background-color:#FFD369; border-color: #FFD369; color:#222831;   font-family: 'Nanum Pen Script', cursive">Publish</button>
+</form>
+
+
+<%- include("partials/footer"); -%>

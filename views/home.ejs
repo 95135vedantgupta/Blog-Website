@@ -1,0 +1,27 @@
+<%- include("partials/header"); -%>
+
+<h1 class="marginFromTop" style="text-align:center">Home</h1>
+<p style="text-align:center; width:80%; margin-left:auto; margin-right:auto"> <%= startContent %></p>
+
+
+<% for(var i=0 ; i<blogs.length ; i++){ %>
+
+  <table>
+    <td style="padding-right:1em"><h1><%= blogs[i].title %></h1></td>
+    <td><h2><%= blogs[i].noOfLikes %> ❤️</h2></td>
+  </table>
+
+
+  <div class="">
+    <p class="seventy-chars">
+      <%= blogs[i].content %>
+    </p>
+    <a href= "/blogs/<%=blogs[i]._id%>" style=" padding-top:0.5em;"> Read more </a>   <!-- dynamic link -->
+
+
+  </div>
+<% } %>
+
+
+
+<%- include("partials/footer"); -%>

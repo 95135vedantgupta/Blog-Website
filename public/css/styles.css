@@ -1,0 +1,134 @@
+body{
+  background-color: #222831;
+}
+p{
+  color: #FFD369;
+  font-size: 1.4em;
+  font-family: 'Nanum Pen Script', cursive;
+}
+h3{
+  color: #EEEEEE;
+  font-size: 2em;
+  font-family: 'Anton', sans-serif;
+}
+h1{
+  color: #EEEEEE;
+  font-size: 3em;
+  font-family: 'Anton', sans-serif;
+}
+a{
+  color: #6D8299;
+  font-size: 0.9em;
+  font-family: 'Nanum Pen Script', cursive;
+}
+li{
+  color: #EEEEEE;
+  font-size: 1.4em;
+  font-family: 'Nanum Pen Script', cursive;
+}
+h2{
+  color: #FF0000;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.img_ucsm{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1em;
+  width: 30em;
+}
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.navbar-default{
+  background-color: #393E46;
+}
+.navbar {
+    overflow: hidden;
+    top: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+    width: 100%;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #F4F4F4;
+}
+.navbar-default .navbar-brand {
+    color: #EEEEEE;
+}
+.navbar-nav  li a:hover {
+    color: #6D8299 !important;
+}
+.navbar-brand{
+  font-family: 'Ranchers', cursive;
+}
+
+.marginFromTop{
+  margin-top: 0.5em;
+}
+
+.footer-padding {
+	padding-bottom: 4em;
+}
+
+.footer {
+	position: fixed;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 2.5em;
+	background-color: #393E46;
+}
+
+.footer p {
+	font-size: 0.75em;
+  color: #EEEEEE;
+}
+
+.seventy-chars {
+    width: 60ch;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+#likeButton{
+  background-color:#950101;
+  border-color: #950101;
+   margin-bottom:1em;
+   font-family: 'Nanum Pen Script', cursive;
+}
+
+#likeButton:hover{
+  background-color: #FF0000;
+}
+
+#saveButton{
+  background-color:#950101;
+  border-color: #950101;
+  font-family: 'Nanum Pen Script', cursive;
+   /* margin-bottom:1em */
+}
+
+#saveButton:hover{
+  background-color: #FF0000;
+}
+
+#parent {
+    width: 100%;
+    height: 90px;
+    white-space: nowrap;
+}
+.child {
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+}
